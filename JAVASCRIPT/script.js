@@ -1,34 +1,12 @@
-const person = {
-    firstname: 'asish',
-    lastname: 'saddhi',
-    age: 250,
-    country:'finland',
-    city:"halsinki",
-    skills: [
-        'html',
-        'css',
-        'javascript',
-        'react',
-        'mongodb',
-        'python'
-    ],
-    getFullName: function() {
-        return `${this.firstname}${this.lastname}`
-    },
-    'phone number': "+34358585"
+const num = [1,2,3,4,5,6,7]
+
+const subArray = arr => {
+    let sum = 0
+    arr.forEach((element) => {
+        sum += element
+    })
+
+    return sum
 }
 
-console.log(person.firstname)
-console.log(person['firstname'])
-console.log(person.country)
-console.log(person['phone number'])
-console.log(person.skills)
-console.log(person.getFullName())
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
-console.log()
+console.log(sumArrays(numbers))
