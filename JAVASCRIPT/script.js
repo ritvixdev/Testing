@@ -1,4 +1,5 @@
-function nam() {
-    console.log('hello world')
+const square = (n) => {
+    console.log(n*n)
 }
-nam()
+
+square(1)
